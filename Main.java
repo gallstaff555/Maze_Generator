@@ -45,11 +45,6 @@ public class Main {
 		//testMaze();
 	}
 	
-	//I used the debug == true for testing. I printed out the list of "frontier" vertices,
-	//which are vertices that have not been visited but are adjacent to a visted vertex.
-	//The 'Parent vertex' in the debugger is the Vertex that originally "discovered" a frontier
-	//vertex. When the frontier vertex is travelled to, the wall will be removed between the
-	//frontier vertex and its parent. 
 	public static void testMaze() {
 		Maze testMaze = new Maze(5, 5, true);
 		//Verified this is the correct solution path
