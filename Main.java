@@ -1,6 +1,3 @@
-/*
- * DZS
- */
 
 import java.awt.Color;
 
