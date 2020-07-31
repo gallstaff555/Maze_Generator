@@ -1,8 +1,3 @@
-/*
- * David Solomon
- * TCSS 342 Assignment 5: Maze Generator
- */
-
 
 import java.awt.BorderLayout;
 import java.awt.Color;
