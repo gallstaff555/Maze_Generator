@@ -38,8 +38,6 @@ public class Main {
 	               maze.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 	          }
 	    }); 
-		
-		//testMaze();
 	}
 	
 	public static void testMaze() {
@@ -48,7 +46,7 @@ public class Main {
 		System.out.println("Solution Path: " + testMaze.solutionPath.toString());
 		
 		
-		//My maze does not work for non-square matrices
+		//maze does not work for non-square matrices
 		Maze testMaze2 = new Maze(5, 4, true);
 		Maze testMaze2_5 = new Maze(2, 3, true);
 		Maze testMaze3 = new Maze(1, 1, false);
